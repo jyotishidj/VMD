@@ -9,7 +9,8 @@ import numpy as np
 
 def VMD(signal, alpha=120, tau=0.8, K=5, DC=0, init=1, tol=10**(-7)):
     
-    
+    #Dragomiretskiy, Konstantin, and Dominique Zosso. "Variational mode decomposition." 
+    #IEEE transactions on signal processing 62.3 (2013): 531-544.
     #---------- Preparations
     T=signal.size
     fs=1/T
